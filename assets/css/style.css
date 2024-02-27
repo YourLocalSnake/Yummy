@@ -1,0 +1,269 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "tasty brownies", sans-serif;
+}
+header {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(../img/baggrund.png);
+  background-size: cover;
+  min-height: 807px;
+}
+
+.logo {
+  display: inline-block;
+  max-width: 70px;
+  padding-left: 70px;
+  padding-top: 40px;
+}
+
+.bg {
+  min-width: 100%;
+  max-width: 1920px;
+  z-index: -1;
+}
+.margin-bottom-auto {
+  margin-bottom: auto;
+}
+header h1 {
+  color: #ff9000;
+  font-size: 100px;
+  text-align: center;
+  margin-left: 200px;
+  margin-bottom: 3%;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff9000;
+  color: white;
+  padding: 28px 79px;
+  font-size: 50px;
+  border-radius: 45px;
+  text-decoration: none;
+}
+
+header .btn {
+  margin-left: 140px;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+}
+
+.steps {
+  color: #ff9000;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.billed {
+  min-width: auto;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-top: 7%;
+}
+
+.btn2 {
+  display: inline-block;
+  background-color: #ff9000;
+  color: white;
+  padding: 28px 79px;
+  font-size: 50px;
+  border-radius: 45px;
+  text-decoration: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.free {
+  background-color: #ff9000;
+  background-size: cover;
+  text-align: center;
+}
+
+.app {
+  padding-top: 5%;
+}
+
+.free h2 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  flex-direction: row;
+  margin-top: 75px;
+  max-width: 1500px;
+  gap: 20px;
+  padding-bottom: 5%;
+}
+
+.price {
+  text-align: center;
+  background-size: cover;
+  background-color: white;
+}
+
+.pirze {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  flex-direction: row;
+  max-width: 1500px;
+  gap: 155px;
+}
+
+.price h2 {
+  color: #ff9000;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.price a {
+  margin-top: 105px;
+  margin-bottom: 105px;
+}
+
+.price p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 90px;
+  opacity: 70%;
+}
+
+.price article {
+  max-width: 320px;
+}
+
+.intro h2 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 58px;
+}
+
+.coll {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: row;
+  margin-top: 75px;
+  gap: 250px;
+  max-width: 1500px;
+  color: white;
+}
+
+.intro {
+  background-size: cover;
+  text-align: center;
+  background-color: #ff9000;
+}
+
+.intro article {
+  max-width: 405px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  margin: auto;
+  margin-top: 45px;
+  max-width: 700px;
+  color: white;
+}
+
+.colll h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.intro .btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.colll p {
+  margin-top: 5%;
+  max-width: 405px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.coll {
+  margin: auto;
+  margin-top: 90px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnnn {
+  display: inline-block;
+  background-color: white;
+  color: #ff9000;
+  padding: 28px 79px;
+  font-size: 50px;
+  border-radius: 45px;
+  text-decoration: none;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.copyright {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logobot {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer ul {
+  width: 100%;
+  max-width: 1800px;
+  flex-direction: row;
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  color: #ff9000;
+  padding: 20px 0px;
+}
+
+.icon {
+  display: flex;
+  gap: 20px;
+}
