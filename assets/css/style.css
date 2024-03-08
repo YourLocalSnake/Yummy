@@ -268,6 +268,6 @@ footer ul {
   gap: 20px;
 }
 
-@media (max-width: 855px) {
+@media (min-width: 855px) {
   /* Styles for screens with a minimum width of 768px */
 }
